@@ -1,7 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router";
+
 import AccordionDemo from "./challenges/accordion-demo";
 import RandomColorGenerator from "./challenges/random-color-generator";
 import StarRatingDemo from "./challenges/star-rating";
+import ImageSlider from "./challenges/image-slider";
 
 export default function App() {
   return (
@@ -11,6 +13,7 @@ export default function App() {
         <Route path="/accordion" element={<AccordionDemo />} />
         <Route path="/random-color-generator" element={<RandomColorGenerator />} />
         <Route path="/star-rating" element={<StarRatingDemo />} />
+        <Route path="/image-slider" element={<ImageSlider />} />
       </Routes>
     </BrowserRouter>
   )
