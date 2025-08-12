@@ -5,6 +5,7 @@ import RandomColorGenerator from "./challenges/random-color-generator";
 import StarRatingDemo from "./challenges/star-rating";
 import ImageSlider from "./challenges/image-slider";
 import LoadMoreData from "./challenges/load-more-data";
+import TreeView from "./challenges/tree-view";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/star-rating" element={<StarRatingDemo />} />
         <Route path="/image-slider" element={<ImageSlider />} />
         <Route path="/load-more-data" element={<LoadMoreData />} />
+        <Route path="/tree-view" element={<TreeView />} />
       </Routes>
     </BrowserRouter>
   )
