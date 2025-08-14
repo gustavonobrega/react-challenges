@@ -6,6 +6,7 @@ import StarRatingDemo from "./challenges/star-rating";
 import ImageSlider from "./challenges/image-slider";
 import LoadMoreData from "./challenges/load-more-data";
 import TreeView from "./challenges/tree-view";
+import LightDarkMode from "./challenges/light-dark-mode";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/image-slider" element={<ImageSlider />} />
         <Route path="/load-more-data" element={<LoadMoreData />} />
         <Route path="/tree-view" element={<TreeView />} />
+        <Route path="/light-dark-mode" element={<LightDarkMode />} />
       </Routes>
     </BrowserRouter>
   )
