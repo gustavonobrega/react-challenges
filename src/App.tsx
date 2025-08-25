@@ -9,6 +9,7 @@ import TreeView from "./challenges/tree-view";
 import LightDarkMode from "./challenges/light-dark-mode";
 import ScrollIndicator from "./challenges/scroll-indicator";
 import AccessibleTabs from "./challenges/accessible-tabs";
+import ModalDemo from "./challenges/modal";
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="/light-dark-mode" element={<LightDarkMode />} />
         <Route path="/scroll-indicator" element={<ScrollIndicator />} />
         <Route path="/tabs" element={<AccessibleTabs />} />
+        <Route path="/modal" element={<ModalDemo />} />
       </Routes>
     </BrowserRouter>
   );
