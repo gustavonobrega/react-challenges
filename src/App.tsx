@@ -10,6 +10,7 @@ import LightDarkMode from "./challenges/light-dark-mode";
 import ScrollIndicator from "./challenges/scroll-indicator";
 import AccessibleTabs from "./challenges/accessible-tabs";
 import ModalDemo from "./challenges/modal";
+import TicTacToe from "./challenges/tic-tac-toe";
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
         <Route path="/scroll-indicator" element={<ScrollIndicator />} />
         <Route path="/tabs" element={<AccessibleTabs />} />
         <Route path="/modal" element={<ModalDemo />} />
+        <Route path="/tic-tac-toe" element={<TicTacToe />} />
       </Routes>
     </BrowserRouter>
   );
