@@ -11,6 +11,7 @@ import ScrollIndicator from "./challenges/scroll-indicator";
 import AccessibleTabs from "./challenges/accessible-tabs";
 import ModalDemo from "./challenges/modal";
 import TicTacToe from "./challenges/tic-tac-toe";
+import DebounceDemo from "./challenges/use-debounce";
 
 export default function App() {
   return (
@@ -31,6 +32,7 @@ export default function App() {
         <Route path="/tabs" element={<AccessibleTabs />} />
         <Route path="/modal" element={<ModalDemo />} />
         <Route path="/tic-tac-toe" element={<TicTacToe />} />
+        <Route path="/use-debounce" element={<DebounceDemo />} />
       </Routes>
     </BrowserRouter>
   );
