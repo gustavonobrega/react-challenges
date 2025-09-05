@@ -12,12 +12,13 @@ import AccessibleTabs from "./challenges/accessible-tabs";
 import ModalDemo from "./challenges/modal";
 import TicTacToe from "./challenges/tic-tac-toe";
 import DebounceDemo from "./challenges/use-debounce";
+import Home from "./components/home";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element="" />
+        <Route path="/" element={<Home/>} />
         <Route path="/accordion" element={<AccordionDemo />} />
         <Route
           path="/random-color-generator"
