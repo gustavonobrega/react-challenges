@@ -14,6 +14,7 @@ import { Link } from "react-router";
     { id: 10, name: "Modal", link: "/modal" },
     { id: 11, name: "Tic Tac Toe", link: "/tic-tac-toe" },
     { id: 12, name: "useDebounce", link: "/use-debounce" },
+    { id: 13, name: "Starfield Button", link: "/starfield-button" },
   ];
 
 export default function Home() {

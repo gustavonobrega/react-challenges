@@ -13,6 +13,7 @@ import ModalDemo from "./challenges/modal";
 import TicTacToe from "./challenges/tic-tac-toe";
 import DebounceDemo from "./challenges/use-debounce";
 import Home from "./components/home";
+import StarfieldButtonDemo from "./challenges/starfield-button";
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
         <Route path="/modal" element={<ModalDemo />} />
         <Route path="/tic-tac-toe" element={<TicTacToe />} />
         <Route path="/use-debounce" element={<DebounceDemo />} />
+        <Route path="/starfield-button" element={<StarfieldButtonDemo />} />
       </Routes>
     </BrowserRouter>
   );
