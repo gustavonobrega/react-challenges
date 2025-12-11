@@ -17,6 +17,7 @@
 - **Tic-Tac-Toe:** Build a interactive tic-tac-toe game.
 - **useDebounce:** Delay the execution of function or state update with a custom React hook.
 - **Starfield Button:** Press and hold a specific key to trigger the button.
+- **Multi-Step Form:** Build a multi-step signup form.
 
 ## 🚀 Getting started
 

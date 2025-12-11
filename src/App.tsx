@@ -14,6 +14,7 @@ import TicTacToe from "./challenges/tic-tac-toe";
 import DebounceDemo from "./challenges/use-debounce";
 import Home from "./components/home";
 import StarfieldButtonDemo from "./challenges/starfield-button";
+import MultiStepForm from "./challenges/multi-step-form";
 
 export default function App() {
   return (
@@ -36,6 +37,7 @@ export default function App() {
         <Route path="/tic-tac-toe" element={<TicTacToe />} />
         <Route path="/use-debounce" element={<DebounceDemo />} />
         <Route path="/starfield-button" element={<StarfieldButtonDemo />} />
+        <Route path="/multi-step-form" element={<MultiStepForm />} />
       </Routes>
     </BrowserRouter>
   );

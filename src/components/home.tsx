@@ -15,6 +15,7 @@ import { Link } from "react-router";
     { id: 11, name: "Tic Tac Toe", link: "/tic-tac-toe" },
     { id: 12, name: "useDebounce", link: "/use-debounce" },
     { id: 13, name: "Starfield Button", link: "/starfield-button" },
+    { id: 14, name: "Multi Step Form", link: "/multi-step-form" },
   ];
 
 export default function Home() {
