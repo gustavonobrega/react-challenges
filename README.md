@@ -18,6 +18,7 @@
 - **useDebounce:** Delay the execution of function or state update with a custom React hook.
 - **Starfield Button:** Press and hold a specific key to trigger the button.
 - **Multi-Step Form:** Build a multi-step signup form.
+- **Drag and Drop:** Build a drag-and-drop functionality.
 
 ## 🚀 Getting started
 

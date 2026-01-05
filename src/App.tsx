@@ -15,6 +15,7 @@ import DebounceDemo from "./challenges/use-debounce";
 import Home from "./components/home";
 import StarfieldButtonDemo from "./challenges/starfield-button";
 import MultiStepForm from "./challenges/multi-step-form";
+import DragAndDrop from "./challenges/drag-and-drop";
 
 export default function App() {
   return (
@@ -38,6 +39,7 @@ export default function App() {
         <Route path="/use-debounce" element={<DebounceDemo />} />
         <Route path="/starfield-button" element={<StarfieldButtonDemo />} />
         <Route path="/multi-step-form" element={<MultiStepForm />} />
+        <Route path="/drag-and-drop" element={<DragAndDrop />} />
       </Routes>
     </BrowserRouter>
   );
