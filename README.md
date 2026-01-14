@@ -19,6 +19,7 @@
 - **Starfield Button:** Press and hold a specific key to trigger the button.
 - **Multi-Step Form:** Build a multi-step signup form.
 - **Drag and Drop:** Build a drag-and-drop functionality.
+- **useOnClickOutside:** Custom hook that allows us to run some code when the user clicks outside a particular DOM node.
 
 ## 🚀 Getting started
 

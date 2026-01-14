@@ -16,12 +16,13 @@ import Home from "./components/home";
 import StarfieldButtonDemo from "./challenges/starfield-button";
 import MultiStepForm from "./challenges/multi-step-form";
 import DragAndDrop from "./challenges/drag-and-drop";
+import ClickOutside from "./challenges/use-clickoutside";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/" element={<Home />} />
         <Route path="/accordion" element={<AccordionDemo />} />
         <Route
           path="/random-color-generator"
@@ -40,6 +41,7 @@ export default function App() {
         <Route path="/starfield-button" element={<StarfieldButtonDemo />} />
         <Route path="/multi-step-form" element={<MultiStepForm />} />
         <Route path="/drag-and-drop" element={<DragAndDrop />} />
+        <Route path="/use-clickoutside" element={<ClickOutside />} />
       </Routes>
     </BrowserRouter>
   );

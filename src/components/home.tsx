@@ -16,7 +16,8 @@ import { Link } from "react-router";
     { id: 12, name: "useDebounce", link: "/use-debounce" },
     { id: 13, name: "Starfield Button", link: "/starfield-button" },
     { id: 14, name: "Multi Step Form", link: "/multi-step-form" },
-    { id: 14, name: "Drag and Drop", link: "/drag-and-drop" },
+    { id: 15, name: "Drag and Drop", link: "/drag-and-drop" },
+    { id: 16, name: "useOnClickOutside", link: "/use-clickoutside" },
   ];
 
 export default function Home() {
