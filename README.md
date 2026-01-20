@@ -20,6 +20,7 @@
 - **Multi-Step Form:** Build a multi-step signup form.
 - **Drag and Drop:** Build a drag-and-drop functionality.
 - **useOnClickOutside:** Custom hook that allows us to run some code when the user clicks outside a particular DOM node.
+- **Multi Checkbox:** Build a MultiCheckbox component which allows the user to click and drag to check/uncheck multiple checkboxes.
 
 ## 🚀 Getting started
 

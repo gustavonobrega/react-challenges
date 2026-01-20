@@ -18,6 +18,7 @@ import { Link } from "react-router";
     { id: 14, name: "Multi Step Form", link: "/multi-step-form" },
     { id: 15, name: "Drag and Drop", link: "/drag-and-drop" },
     { id: 16, name: "useOnClickOutside", link: "/use-clickoutside" },
+    { id: 17, name: "Multi Checkbox", link: "/multi-checkbox" },
   ];
 
 export default function Home() {
